@@ -26,3 +26,9 @@ One Hot Encoding the "Geography" column
 
 ### Adding the output layer
 
+## Part 3 - Training the ANN
+
+### Compiling the ANN
+
+### Training the ANN on the Training set
+

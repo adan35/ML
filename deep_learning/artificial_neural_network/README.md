@@ -32,3 +32,10 @@ One Hot Encoding the "Geography" column
 
 ### Training the ANN on the Training set
 
+## Part 4 - Making the predictions and evaluating the model
+
+### Predicting the result of a single observation
+
+### Predicting the Test set results
+
+### Making the Confusion Matrix

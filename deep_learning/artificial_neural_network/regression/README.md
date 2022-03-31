@@ -17,3 +17,11 @@
 ### Adding the second hidden layer
 
 ### Adding the output layer
+
+## Part 3 - Training the ANN
+
+### Compiling the ANN
+
+### Training the ANN model on the Training set
+
+### Predicting the results of the Test set

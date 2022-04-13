@@ -23,3 +23,9 @@
 ### Step 4 - Full Connection
 
 ### Step 5 - Output Layer
+
+## Part 3 - Training the CNN
+
+### Compiling the CNN
+
+### Training the CNN on the Training set and evaluating it on the Test set

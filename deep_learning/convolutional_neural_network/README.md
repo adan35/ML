@@ -29,3 +29,5 @@
 ### Compiling the CNN
 
 ### Training the CNN on the Training set and evaluating it on the Test set
+
+## Part 4 - Making a single prediction

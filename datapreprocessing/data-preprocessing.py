@@ -1,6 +1,4 @@
 #import libraries
-from random import random
-from xml.etree.ElementTree import ProcessingInstruction
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd

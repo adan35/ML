@@ -6,9 +6,9 @@ import pandas as pd
 #import dataset
 dataset = pd.read_csv('Data.csv')
 X = dataset.iloc[:, :-1].values
-Y = dataset.iloc[:, -1].values
+y = dataset.iloc[:, -1].values
 # print(X)
-# print(Y)
+# print(y)
 
 #taking care of missing data
 from sklearn.impute import SimpleImputer
@@ -28,16 +28,16 @@ X = np.array(ct.fit_transform(X))
 #encoding dependent variable
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
-Y = le.fit_transform(Y)
-# print(Y)
+y = le.fit_transform(y)
+# print(y)
 
 #spliting the dataset into the training set and testing set
 from sklearn.model_selection import train_test_split
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 # print(X_train)
 # print(X_test)
-# print(Y_train)
-# print(Y_test)
+# print(y_train)
+# print(y_test)
 
 #feature scaling
 from sklearn.preprocessing import StandardScaler

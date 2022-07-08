@@ -35,3 +35,12 @@ plt.title('Salary vs Experience')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary $')
 plt.show()
+
+# making a single prediction (for example predicting the salary of the employee with 12 years experience)
+sal = regressor.predict([[12]])
+print(sal)
+
+# getting the final linear regression equation with the coefficient and intercept
+print(regressor.coef_)
+print(regressor.intercept_)
+print("so the equation is: y =", regressor.coef_[0], '+', regressor.intercept_, 'X')

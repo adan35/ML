@@ -13,3 +13,7 @@
 ### Visualizing the Training Set results
 
 ### Visualizing the Test Set results
+
+##### Making a Single Prediction (for example predicting the salary of the employee with 12 years experience)
+
+##### Getting the Final Linear Regression equation with the coefficient and intercept

@@ -9,6 +9,10 @@ X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
 # Encoding categorical data
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [3])], remainder='passthrough')
+X = ct.fit_transform(X)
 
 # Split the Dataset into the Training Set and Test Set
 

@@ -15,6 +15,8 @@ ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [3])], remaind
 X = ct.fit_transform(X)
 
 # Split the Dataset into the Training Set and Test Set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 # Training the Multiple Linear Regression model on the Training set
 

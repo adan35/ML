@@ -26,4 +26,14 @@ regressor.fit(X_train, y_train)
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
 np.set_printoptions(precision=2)
-print(np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test), 1)), 1))
+result = np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test), 1)), 1)
+# print(result)
+
+# Making a single prediction (for example the profit of a startup with R&D Spend = 160000, Administration Spend = 130000, Marketing Spend = 300000 and State = 'California')
+single_pred = regressor.predict([[1, 0, 0, 160000, 130000, 300000]])
+# print(single_pred)
+
+# Getting the final linear regression equation with the values of the coefficients
+print(regressor.coef_)
+print(regressor.intercept_)
+# y = 42467.52 + 86.6 x Dummy Var 1 - 873 x Dummy Var 2 + 786 x Dummy Var 3 + 0.773 x R&D + 0.0329 x Administration + 0.0366 x Marketing

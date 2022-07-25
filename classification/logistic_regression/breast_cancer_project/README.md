@@ -4,6 +4,8 @@
 
 - ### Importing the dataset
 
+- ### Splitting the dataset into the Training set and Test set
+
 - ### Training the Logistic Regression model on the Training set
 
 - ### Predicting the Test set results

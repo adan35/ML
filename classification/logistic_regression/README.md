@@ -4,9 +4,9 @@
 
 - ### Importing the dataset
 
-- ### Feature Scaling
-
 - ### Training the Logistic Regression model on the Training set
+
+- ### Feature Scaling
 
 - ### Predicting a new result
 

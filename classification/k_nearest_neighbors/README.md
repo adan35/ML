@@ -6,6 +6,8 @@
 
 - ### Splitting the dataset into the Training set and Test set
 
+- ### Feature Scaling
+
 - ### Training the K-NN model on the Training set
 
 - ### Predicting a new result

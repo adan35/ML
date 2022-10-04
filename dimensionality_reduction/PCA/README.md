@@ -1,19 +1,19 @@
 # Principal Component Analysis (PCA)
 
-## Importing the libraries
+- ### Importing the libraries
 
-## Importing the dataset
+- ### Importing the dataset
 
-## Splitting the dataset into the Training set and Test set
+- ### Splitting the dataset into the Training set and Test set
 
-## Feature Scaling
+- ### Feature Scaling
 
-## Applying PCA
+- ### Applying PCA
 
-## Training the Logistic Regression model on the Training set
+- ### Training the Logistic Regression model on the Training set
 
-## Making the Confusion Matrix
+- ### Making the Confusion Matrix
 
-## Visualising the Training set results
+- ### Visualising the Training set results
 
-## Visualising the Test set results
+- ### Visualising the Test set results
